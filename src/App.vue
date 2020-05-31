@@ -8,7 +8,7 @@
     >
         <div class="screen flex-col">
             <ul v-if="history.length" class="flex-col">
-                <output-row v-for="entry in history" :key="entry.id" :entryText="entry.text" promptText="anon@qutaiba.com" :entryType="entry.type"></output-row>
+                <output-row v-for="entry in history" :key="entry.id" :entryText="entry.text" promptText="anon@qxtaiba.com" :entryType="entry.type"></output-row>
             </ul>
 
             <div id="prompt" class="flex-row-center input-row">

@@ -6,7 +6,7 @@ import skills from './command-output/skills'
 import github from './command-output/github'
 import linkedin from './command-output/linkedin'
 import twitter from './command-output/twitter'
-import contact from './command-output/contact'
+import email from './command-output/email'
 import credits from './command-output/credits'
 
 export default class CommandParser {
@@ -90,8 +90,8 @@ export default class CommandParser {
         return JSON.parse(JSON.stringify(twitter));
     }
 
-    cmdContact(args) {
-        return JSON.parse(JSON.stringify(contact));
+    cmdEmail(args) {
+        return JSON.parse(JSON.stringify(email));
     }
 
     cmdCredits(args) {

@@ -8,7 +8,7 @@ export default [
     '>   Arabic        []-<color="pct-8">#################################################</color>-[]',
     '>   Spanish       []-<color="pct-4">############################</color>-[]',
     ' ',
-    '>   Education:    <color="yellow">Electrical</color> and <color="yellow">Software Engineer</color> studying at <color="yellow">NYU</color> with a keen interest in <color="yellow">Machine Learning</color>.',
+    '>   Education:    <color="yellow">Electrical</color> and <color="yellow">Software Engineer</color> studying at <color="magenta">NYU</color> with a keen interest in <color="yellow">Machine Learning</color>.',
     ' ',
  ]
 
