@@ -1,5 +1,3 @@
-# ronniepyne/vue-terminal-homepage
-
 > A simple terminal implementation to facilitate my personal homepage
 
 ## Build Setup
