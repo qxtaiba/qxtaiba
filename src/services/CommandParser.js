@@ -104,8 +104,7 @@ export default class CommandParser {
     }
 
     cmdAll(args) {
-        return this.cmdMotd()
-                   .concat(this.cmdMenu())
+        return this.cmdMenu()
                    .concat(this.cmdAbout())
                    .concat(this.cmdProjects())
                    .concat(this.cmdSkills())

@@ -157,8 +157,8 @@ input {
 }
 
 #app {
-    display: flex;
-    width: $width;
+    display: outside;
+    width: 100%;
     height: $height;
 }
 
@@ -167,6 +167,7 @@ input {
     height: $height;
     width: $width;
     overflow-y: scroll;
+
 }
 
 .screen {
@@ -185,7 +186,7 @@ input {
 .entry,
 #prompt {
     //padding: 3px 4px;
-    width: $width;
+    width: 100%;
 
     input {
         width: 100%;
