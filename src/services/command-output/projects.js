@@ -37,7 +37,7 @@ export default [
     ' ',
     '>   <color="yellow">GLiDAR</color>\n ', result_9,     
     ' ',
-    '>   <color="yellow">Machine Learning</color>\n ', result_1,     
+    '>   <color="yellow">General Machine Learning</color>\n ', result_1,     
     ' ',                 
     '>   <color="yellow">CNN Object Detection and Classification</color>\n ', result_2,
     ' ',
