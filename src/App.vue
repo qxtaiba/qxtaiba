@@ -63,6 +63,7 @@ export default {
 
             switch (command) {
                 case 'clear':
+                    this.doOutput(cmdParser.parse('motd'))
                     this.history = []
                     storage.save(this.history)
                     break
