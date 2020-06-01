@@ -23,7 +23,7 @@ $text-input: #efefef;
 
 $font-primary: 'IBM Plex Mono';
 
-$width: 100%; // height: 300;
+$width: 120%; // height: 300;
 $height: 100%;
 
 .csl-red {
@@ -158,7 +158,7 @@ input {
 
 #app {
     display: outside;
-    width: 100%;
+    width: $width;
     height: $height;
 }
 
@@ -186,10 +186,10 @@ input {
 .entry,
 #prompt {
     //padding: 3px 4px;
-    width: 100%;
+    width: $width;
 
     input {
-        width: 100%;
+        width: $width;
     }
 
     &.input-row {
