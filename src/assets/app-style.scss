@@ -26,6 +26,7 @@ $font-primary: 'IBM Plex Mono';
 $width: 100%; // height: 300;
 $height: 100%;
 
+
 .csl-red {
     color: $red;
 }
@@ -96,8 +97,10 @@ html {
     box-sizing: border-box;
     height: $height;
     overflow: hidden;
+    white-space: nowrap;
     background-color: $background;
 }
+
 
 body {
     height: $height;
