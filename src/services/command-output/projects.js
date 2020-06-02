@@ -7,6 +7,7 @@ var str_6 = "Designed and implemented a program in Python to reverse engineer fu
 var str_7 = "Developed an interactive and utterly immersive VR experience that allows users to explore and learn more about key artefacts, monuments and cities around the globe using Unity and C#."
 var str_8 = "Maintained, developed, and tested a number of new and pipeline features for iOS using Objective C, XCode, Cocoa Touch, and Swift. I also developed the backend using Firebase and AppSync and partnered closely with product management as well as the UI and iOS/Android development team to continuously work on improving the iOS application by adding new functionality and developing new features consistent with the product roadmap."
 var str_9 = "Integrated, built, and developed an SDK for a solid-state LiDAR sensor used to produce density elevation maps of glacier fronts from a point cloud of data. This was used to generate computational models for research by the Global Centre for Sea Level Change (GCSLC). I also Led confident, bilingual pitches after the project was selected for display at three conferences, most notably to the Vice President and Prime Minister of the UAE, HRH Sheikh Mohammed Bin Rashid al Maktoum."
+
 var result_1 = stringDivider(str_1, 100, "<br/>");
 var result_2 = stringDivider(str_2, 100, "<br/>");
 var result_3 = stringDivider(str_3, 100, "<br/>");

@@ -14,12 +14,12 @@ export default [
     '                                               ____________________________________                                                ',
     ' ',
     ' ',
-    '\t\t\t\t\t\t\tHi, I\'m <color="yellow">Qutaiba Al-Nuaimy</color> - Electrical and Software Engineer in Liverpool, UK',
+    '                           Hi, I\'m <color="yellow">Qutaiba Al-Nuaimy</color> - Electrical and Software Engineer in Liverpool, UK',
     '                                               Type <color="yellow">menu</color> for a full list of commands                                               ',
     ' ',
     
 ]
-                                     
+
 
 
 
