@@ -14,7 +14,7 @@ export default [
     '                                               ____________________________________                                                ',
     ' ',
     ' ',
-    '                           Hi, I\'m <color="yellow">Qutaiba Al-Nuaimy</color> - Electrical and Software Engineer in Liverpool, UK',
+    '                      Hi, I\'m <color="yellow">Qutaiba Al-Nuaimy</color> - Electrical and Software Engineer in the UK, US, and UAE',
     '                                               Type <color="yellow">menu</color> for a full list of commands                                               ',
     ' ',
     
