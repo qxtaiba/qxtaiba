@@ -1,5 +1,3 @@
-> A simple terminal implementation to facilitate my personal homepage
-
 ## Build Setup
 
 ``` bash
