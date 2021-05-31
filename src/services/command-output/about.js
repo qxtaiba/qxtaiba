@@ -6,7 +6,8 @@ export default [
     '>   English:       []-<color="pct-8">#################################################</color>-[]',
     '>   Arabic:        []-<color="pct-8">#################################################</color>-[]',
     ' ',
-    '>   Education:     Electrical and Software Engineer at NYU and Palantir with a keen interest in Machine Learning.',
+    '>   Education:     Electrical and Software Engineer at NYU with a keen interest in Machine Learning.',
+    '>   Employment:    Forward Deployed Software Engineer at Palantir',
     ' ',
  ]
 
