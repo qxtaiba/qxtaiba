@@ -33,16 +33,16 @@ function stringDivider(str, width, spaceReplacer) {
 }
 
 export default [
-    ' ',
-    '>   <color="yellow">imagiLabs</color>\n ', result_8,     
+    // ' ',
+    // '>   <color="yellow">imagiLabs</color>\n ', result_8,     
     ' ',
     '>   <color="yellow">GLiDAR</color>\n ', result_9,     
     ' ',
-    '>   <color="yellow">General Machine Learning</color>\n ', result_1,     
-    ' ',                 
+    // '>   <color="yellow">General Machine Learning</color>\n ', result_1,     
+    // ' ',                 
     '>   <color="yellow">CNN Object Detection and Classification</color>\n ', result_2,
-    ' ',
-    '>   <color="yellow">GAN Human Face Synthesis</color>\n ', result_3,
+    // ' ',
+    // '>   <color="yellow">GAN Human Face Synthesis</color>\n ', result_3,
     ' ',
     '>   <color="yellow">Characterisation of Competing Populations</color>\n ', result_4,
     ' ',
