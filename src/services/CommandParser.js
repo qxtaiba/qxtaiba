@@ -6,8 +6,9 @@ import skills from './command-output/skills'
 import github from './command-output/github'
 import linkedin from './command-output/linkedin'
 import twitter from './command-output/twitter'
-import contact from './command-output/contact'
+import email from './command-output/email'
 import credits from './command-output/credits'
+import resume from './command-output/resume'
 
 export default class CommandParser {
     parse(command, args) {
@@ -90,8 +91,12 @@ export default class CommandParser {
         return JSON.parse(JSON.stringify(twitter));
     }
 
-    cmdContact(args) {
-        return JSON.parse(JSON.stringify(contact));
+    cmdEmail(args) {
+        return JSON.parse(JSON.stringify(email));
+    }
+
+    cmdResume(args){
+        return JSON.parse(JSON.stringify(resume))
     }
 
     cmdCredits(args) {
@@ -99,15 +104,15 @@ export default class CommandParser {
     }
 
     cmdAll(args) {
-        return this.cmdMotd()
-                   .concat(this.cmdMenu())
+        return this.cmdMenu()
                    .concat(this.cmdAbout())
                    .concat(this.cmdProjects())
                    .concat(this.cmdSkills())
                    .concat(this.cmdGithub())
                    .concat(this.cmdLinkedin())
                    .concat(this.cmdTwitter())
-                   .concat(this.cmdContact())
+                   .concat(this.cmdEmail())
+                   .concat(this.cmdResume())
                    .concat(this.cmdCredits())
     }
 

@@ -1,10 +1,13 @@
 export default [
     ' ',
-    '>   Name:         <color="yellow">Qutaiba Al-Nuaimy</color>',
-    '>   D.O.B:        20/01/1999',
-    '>   Location:     <color="yellow">Liverpool, United Kingdom</color>',
+    '>   Name:         Qutaiba Al-Nuaimy',
+    '>   Location:     London, United Kingdom',
     ' ',
-    '>   Education:    <color="yellow">Electrical</color> and <color="yellow">Software Engineer</color> studying at <color="yellow">NYU</color> with a keen interest in <color="yellow">Machine Learning</color>.',
+    '>   English:       []-<color="pct-8">#################################################</color>-[]',
+    '>   Arabic:        []-<color="pct-8">#################################################</color>-[]',
+    ' ',
+    '>   Education:     Electrical and Software Engineer at NYU with a keen interest in Machine Learning.',
+    '>   Employment:    Forward Deployed Software Engineer at Palantir',
     ' ',
  ]
 

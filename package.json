@@ -10,6 +10,7 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
+    "netlify-cli": "^2.52.0",
     "vue": "^2.5.11"
   },
   "browserslist": [
@@ -29,7 +30,7 @@
     "file-loader": "^1.1.4",
     "google-fonts-webpack-plugin": "^0.4.4",
     "html-webpack-plugin": "^3.2.0",
-    "node-sass": "^4.14.1",
+    "node-sass": "^6.0.0",
     "sass-loader": "^6.0.6",
     "vue-loader": "^13.0.5",
     "vue-template-compiler": "^2.4.4",

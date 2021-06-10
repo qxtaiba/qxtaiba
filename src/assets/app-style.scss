@@ -1,7 +1,9 @@
 
 $red:#FF0000;
-$green:#00FF00;
-$blue:#0000FF;
+$orange: #ffb300;
+$greener:#00FF00;
+$green:#00FF95;
+$blue:#0099FF;
 $cyan: #00FFFF;
 $magenta: #FF00FF; 
 $yellow: #FFFF00;
@@ -24,8 +26,31 @@ $font-primary: 'IBM Plex Mono';
 $width: 100%; // height: 300;
 $height: 100%;
 
+
+.csl-red {
+    color: $red;
+}
+
+.csl-orange {
+    color: $orange;
+}
+
 .csl-green {
     color: $green;
+}
+
+.csl-greener {
+    color: $greener;
+}
+
+
+.csl-blue {
+    color: $blue;
+}
+
+
+.csl-magenta {
+    color: $magenta;
 }
 
 .csl-yellow {
@@ -72,8 +97,10 @@ html {
     box-sizing: border-box;
     height: $height;
     overflow: hidden;
+    white-space: nowrap;
     background-color: $background;
 }
+
 
 body {
     height: $height;
@@ -133,7 +160,7 @@ input {
 }
 
 #app {
-    display: flex;
+    display: outside;
     width: $width;
     height: $height;
 }
@@ -143,6 +170,7 @@ input {
     height: $height;
     width: $width;
     overflow-y: scroll;
+
 }
 
 .screen {
@@ -164,7 +192,7 @@ input {
     width: $width;
 
     input {
-        width: 100%;
+        width: $width;
     }
 
     &.input-row {
@@ -177,6 +205,5 @@ a {
 }
 
 .entry-text {
-    word-break: break-word;
     display: inline-block;
 }

@@ -1,10 +1,26 @@
-const width  = window.innerWidth || document.documentElement.clientWidth || 
-document.body.clientWidth;
-const height = window.innerHeight|| document.documentElement.clientHeight|| 
-document.body.clientHeight;
 
 export default [
-    ` `,
-    ' hi' + width,
-    ` `
+
+    ' ',
+    ' ',
+    ' ',
+    ' <color="red">   ██████╗ ██╗   ██╗████████╗ █████╗ ██╗██████╗  █████╗      █████╗ ██╗      ███╗   ██╗██╗   ██╗ █████╗ ██╗███╗   ███╗██╗   ██╗  </color> ',
+    ' <color="orange">  ██╔═══██╗██║   ██║╚══██╔══╝██╔══██╗██║██╔══██╗██╔══██╗    ██╔══██╗██║      ████╗  ██║██║   ██║██╔══██╗██║████╗ ████║╚██╗ ██╔╝ </color>  ',
+    ' <color="yellow">  ██║   ██║██║   ██║   ██║   ███████║██║██████╔╝███████║    ███████║██║█████╗██╔██╗ ██║██║   ██║███████║██║██╔████╔██║ ╚████╔╝  </color>  ', 
+    ' <color="greener">  ██║▄▄ ██║██║   ██║   ██║   ██╔══██║██║██╔══██╗██╔══██║    ██╔══██║██║╚════╝██║╚██╗██║██║   ██║██╔══██║██║██║╚██╔╝██║  ╚██╔╝   </color>  ',  
+    ' <color="green">  ╚██████╔╝╚██████╔╝   ██║   ██║  ██║██║██████╔╝██║  ██║    ██║  ██║███████╗ ██║ ╚████║╚██████╔╝██║  ██║██║██║ ╚═╝ ██║   ██║     </color> ',   
+    ' <color="blue">   ╚══▀▀═╝  ╚═════╝    ╚═╝   ╚═╝  ╚═╝╚═╝╚═════╝ ╚═╝  ╚═╝    ╚═╝  ╚═╝╚══════╝ ╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝╚═╝╚═╝     ╚═╝   ╚═╝     </color> ',
+    ' ',
+    '                                               ____________________________________                                                ',
+    ' ',
+    ' ',
+    '                      Hi, I\'m <color="yellow">Qutaiba Al-Nuaimy</color> - Electrical and Software Engineer in the UK, US, and UAE',
+    ' ',
+    '                                            Type <color="yellow">menu</color> for a full list of commands                                               ',
+    ' ',
+    
 ]
+
+
+
+

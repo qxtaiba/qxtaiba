@@ -8,11 +8,11 @@
     >
         <div class="screen flex-col">
             <ul v-if="history.length" class="flex-col">
-                <output-row v-for="entry in history" :key="entry.id" :entryText="entry.text" promptText="anon@ronniepyne.com" :entryType="entry.type"></output-row>
+                <output-row v-for="entry in history" :key="entry.id" :entryText="entry.text" promptText="anon@qxtaiba.com" :entryType="entry.type"></output-row>
             </ul>
 
             <div id="prompt" class="flex-row-center input-row">
-                <span class="prompt-icon">anon@ronniepyne.com&nbsp;$</span> 
+                <span class="prompt-icon">anon@qxtaiba.com&nbsp;$</span> 
                 <input
                     ref="input" 
                     v-model="userInput" type="text"
@@ -63,6 +63,7 @@ export default {
 
             switch (command) {
                 case 'clear':
+                    this.doOutput(cmdParser.parse('motd'))
                     this.history = []
                     storage.save(this.history)
                     break
