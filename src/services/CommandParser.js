@@ -1,7 +1,6 @@
 import menu from './command-output/menu'
-import lsd from './command-output/menu'
+import ls from './command-output/menu'
 import about from './command-output/about'
-import projects from './command-output/projects'
 import skills from './command-output/skills'
 import github from './command-output/github'
 import linkedin from './command-output/linkedin'
@@ -63,15 +62,11 @@ export default class CommandParser {
     }
 
     cmdMenu(args) {
-        return JSON.parse(JSON.stringify(lsd))
+        return JSON.parse(JSON.stringify(ls))
     }
 
     cmdAbout(args) {
         return JSON.parse(JSON.stringify(about))
-    }
-
-    cmdProjects(args) {
-        return JSON.parse(JSON.stringify(projects))
     }
 
     cmdSkills(args) {
@@ -101,11 +96,9 @@ export default class CommandParser {
     cmdAll(args) {
         return this.cmdMenu()
                    .concat(this.cmdAbout())
-                   .concat(this.cmdProjects())
                    .concat(this.cmdSkills())
                    .concat(this.cmdGithub())
                    .concat(this.cmdLinkedin())
-                   .concat(this.cmdTwitter())
                    .concat(this.cmdEmail())
                    .concat(this.cmdResume())
                    .concat(this.cmdCredits())
