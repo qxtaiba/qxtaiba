@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-> A simple terminal implementation to facilitate my personal homepage
-
-=======
->>>>>>> master
 ## Build Setup
 
 ``` bash
