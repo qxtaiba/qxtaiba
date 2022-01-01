@@ -1,4 +1,5 @@
 import menu from './command-output/menu'
+import motd from './command-output/motd'
 import about from './command-output/about'
 import skills from './command-output/skills'
 import github from './command-output/github'
@@ -66,6 +67,10 @@ export default class CommandParser {
 
     cmdSkills(args) {
         return JSON.parse(JSON.stringify(skills))
+    }
+
+    cmdMotd(args) {
+        return JSON.parse(JSON.stringify(motd))
     }
 
     cmdGithub(args) {
