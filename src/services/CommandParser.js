@@ -1,11 +1,8 @@
-import motd from './command-output/motd'
 import menu from './command-output/menu'
 import about from './command-output/about'
-import projects from './command-output/projects'
 import skills from './command-output/skills'
 import github from './command-output/github'
 import linkedin from './command-output/linkedin'
-import twitter from './command-output/twitter'
 import email from './command-output/email'
 import credits from './command-output/credits'
 import resume from './command-output/resume'
@@ -59,20 +56,12 @@ export default class CommandParser {
         return args.join(' ')
     }
 
-    cmdMotd(args) {
-        return JSON.parse(JSON.stringify(motd))
-    }
-
     cmdMenu(args) {
         return JSON.parse(JSON.stringify(menu))
     }
 
     cmdAbout(args) {
         return JSON.parse(JSON.stringify(about))
-    }
-
-    cmdProjects(args) {
-        return JSON.parse(JSON.stringify(projects))
     }
 
     cmdSkills(args) {
@@ -85,10 +74,6 @@ export default class CommandParser {
 
     cmdLinkedin(args) {
         return JSON.parse(JSON.stringify(linkedin));
-    }
-
-    cmdTwitter(args) {
-        return JSON.parse(JSON.stringify(twitter));
     }
 
     cmdEmail(args) {
@@ -106,11 +91,9 @@ export default class CommandParser {
     cmdAll(args) {
         return this.cmdMenu()
                    .concat(this.cmdAbout())
-                   .concat(this.cmdProjects())
                    .concat(this.cmdSkills())
                    .concat(this.cmdGithub())
                    .concat(this.cmdLinkedin())
-                   .concat(this.cmdTwitter())
                    .concat(this.cmdEmail())
                    .concat(this.cmdResume())
                    .concat(this.cmdCredits())
