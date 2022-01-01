@@ -1,15 +1,16 @@
-require("babel-polyfill");
+require("@babel/polyfill");
 var path = require('path');
 var webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+const { VueLoaderPlugin } = require('vue-loader')
 
 module.exports = {
     optimization: {
         minimizer: [new UglifyJsPlugin()],
       },
     
-    entry: ['babel-polyfill', './src/main.js'],
+    entry: ['@babel/polyfill', './src/main.js'],
     output: {
         path: path.resolve(__dirname, './dist'),
         publicPath: '/',
@@ -73,27 +74,36 @@ module.exports = {
     },
     devServer: {
         historyApiFallback: true,
-        noInfo: true,
-        overlay: true,
-        disableHostCheck: true,
-        contentBase: path.resolve(__dirname, './dist'),
-        publicPath: '/'
+
+        allowedHosts: 'all',
+        client: {
+            overlay: true,
+        },
+        devMiddleware: {
+            publicPath: '/'
+        },
+        static: {
+            directory: path.resolve(__dirname, "static"),
+            staticOptions: {},
+            publicPath: "./dist",
+        },
     },
     performance: {
         hints: false
     },
-    devtool: '#eval-source-map',
+    devtool: 'eval-source-map',
     plugins: [
         new HtmlWebpackPlugin({
             template: 'index.html',
             filename: path.resolve(__dirname, 'dist/index.html'),
             hash: true,
-        })
+        }),
+        new VueLoaderPlugin()
     ]
 };
 
 if (process.env.NODE_ENV === 'production') {
-    module.exports.devtool = '#source-map';
+    module.exports.devtool = 'source-map';
     // http://vue-loader.vuejs.org/en/workflow/production.html
     module.exports.plugins = (module.exports.plugins || []).concat([
         new webpack.DefinePlugin({
