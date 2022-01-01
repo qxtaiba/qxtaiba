@@ -27,10 +27,3 @@ export default [
  ]
 
 
-
-// pyspark 
-// infrastructure 
-// palantir foundry 
-// palantir apollo 
-// hadoop 
-
