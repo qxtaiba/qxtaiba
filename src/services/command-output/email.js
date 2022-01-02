@@ -1,5 +1,5 @@
 export default [
     ' ',
-    '>   <link="mailto:qan205@nyu.edu">qan205@nyu.edu</link>',
+    '>   <link="mailto:qutaiba.alnuaimy@nyu.edu">qutaiba.alnuaimy@nyu.edu</link>',
     ' '
 ];

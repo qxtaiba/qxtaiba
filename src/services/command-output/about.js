@@ -1,7 +1,7 @@
 export default [
     ' ',
     '>   Name:         Qutaiba Al-Nuaimy',
-    '>   Location:     London, United Kingdom',
+    '>   Location:     London, United Kingdom & Abu Dhabi, United Arab Emirates',
     ' ',
     '>   English:       []-<color="pct-8">#################################################</color>-[]',
     '>   Arabic:        []-<color="pct-8">#################################################</color>-[]',
