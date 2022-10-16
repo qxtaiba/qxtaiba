@@ -2,12 +2,12 @@ require("@babel/polyfill");
 var path = require('path');
 var webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+const TerserPlugin = require("terser-webpack-plugin");
 const { VueLoaderPlugin } = require('vue-loader')
 
 module.exports = {
     optimization: {
-        minimizer: [new UglifyJsPlugin()],
+        minimizer: [new TerserPlugin()],
       },
     
     entry: ['@babel/polyfill', './src/main.js'],
